@@ -7,8 +7,7 @@
 }
 
 body{
-  /* background-color: #a459f4; */
-  background-color: #a459f4;
+  background: linear-gradient(to right, #a7e0e7,#5ec5dd, #1c93bd);
   height: 100vh;
   width: 100%;
   display: flex;
@@ -19,7 +18,6 @@ body{
 .todo-container{
   width:  450px;
   height: auto;
-  /* border: 1px solid white;| */
   padding: 0px 20px 0px 20px;
 }
 
@@ -33,6 +31,7 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  box-shadow: 0px 0px 10px #0a71aa;
 }
 
 .todo-search small{
@@ -43,7 +42,6 @@ body{
 .todo-search form{
   width: 100%;
   height: 80px;
-  /* border: 1px solid black;| */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -52,11 +50,11 @@ body{
 .todo-list{
   width: 100%;
   height: auto;
-  /* margin-top: 20px; */
   background-color: white;
   padding-top: 10px !important;
   border-radius: 10px;
   padding: 10px 10px 20px 10px;
+  box-shadow: 0px 0px 10px #0a71aa;
 }
 
 .todo-search form input, select{
@@ -71,17 +69,18 @@ select{
   width: 100%;
   margin: 20px 0px 20px 0px;
   height: 50px;
+  box-shadow: 0px 0px 10px #0a71aa;
 }
 
 input:focus, select:focus{
-  outline: 1px solid #a459f4;
+  outline: 1px solid #1c93bd;
 }
 
 .todo-search form button{
   height: 50px;
   width: 70px;
   padding: 0px 10px 0px 10px;
-  background-color: #a459f4;
+  background-color: #1c93bd;
   color: white;
   border: none;
   border-radius: 5px;
@@ -110,7 +109,7 @@ input:focus, select:focus{
   width: 40px;
   height: 40px;
   border-radius: 5px;
-  background-color: #a459f4;
+  background-color: #1c93bd;
   color: white;
   cursor: pointer;
   display: flex;
@@ -139,8 +138,6 @@ input:focus, select:focus{
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  /* width: 100vw;
-  height: 100vh; */
   width: 100%;
   height: 100%;
   display: flex;
@@ -148,13 +145,11 @@ input:focus, select:focus{
 
 .modal{
   width: 400px;
-  /* height: 300px; */
   background-color: white;
   border-radius: 5px;
   padding:  40px;
   text-align: center;
   transition: 0.5 ease-in-out
-  /* display: none; */
 }
 
 
@@ -173,7 +168,7 @@ input:focus, select:focus{
   height: 40px;
   padding: 10px;
   border: none;
-  background-color: #a459f4;
+  background-color: #1c93bd;
   color: white;
   border-radius: 5px;
   cursor: pointer;
@@ -195,7 +190,6 @@ input:focus, select:focus{
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid black; */
   margin-top: 20px;
 }
 
@@ -210,19 +204,14 @@ input:focus, select:focus{
 }
 
 .showbtn{ 
-  background: #a459f4;
+  background: #1c93bd;
 }
 
 
 .btn-container .cancel{ 
-  background: #a459f4;
+  background: #1c93bd;
   margin-right: 10px;
 }
-
-/* .btn-container .success{ 
-  background: purple;
-} */
-
 
 .strike{
   text-decoration: line-through;
